@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed";
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+    position: relative
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.header {
+    background-image: url(img/fon_for_start.png);
+    height: 725px;
+    position: relative;
+}
+
+.slide {
+    padding-top: 13px;
+    position: absolute;
+}
+
+
+.logo {
+    float: left;
+    position: absolute
+}
+
+.historical {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    padding-top: 32px;
+    padding-left: 475px;
+
+}
+
+.games {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 476px;
+    letter-spacing: 22.41px;
+}
+
+.tel-header,
+.email-header,
+.search-header {
+    position: absolute;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: left;
+    letter-spacing: 0.36px;
+}
+
+.tel-header {
+    padding-top: 35px;
+    padding-left: 833px;
+    display: flex;
+    align-items: center;
+}
+
+.email-header {
+    padding-top: 35px;
+    padding-left: 1010px;
+    display: flex;
+    align-items: center;
+}
+
+.search-header {
+    border: 1px solid #ffffff;
+    width: 157px;
+    height: 38px;
+    margin-top: 23px;
+    margin-left: 1238px;
+    display: flex;
+    align-items: center;
+}
+
+.glass {
+    position: absolute;
+    border: 1px solid #ffffff;
+    height: 38px;
+    width: 50px;
+    margin-top: 23px;
+    margin-left: 1395px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    margin-left: 703px;
+    padding-top: 128px;
+}
+
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+    padding-left: 23px;
+}
+
+.menu-link {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.36px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.36px;
+}
+
+.menu-link-active {
+    color: #ffffff;
+    font-style: normal;
+    letter-spacing: 0.36px;
+    line-height: normal;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 23px;
+}
+
+.header-name {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: left;
+    margin-left: 770px;
+    padding-top: 273px;
+    position: absolute;
+}
+
+.header-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 48px;
+    text-align: left;
+    border-bottom: 2px solid #ffffff;
+    margin-left: 906px;
+    padding-top: 165px;
+    position: absolute;
+}
+
+.social-list {
+    list-style-type: none;
+    height: 40px;
+    width: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    margin-left: 860px;
+    padding-top: 400px;
+    position: absolute;
+}
+
+.header_about_us {
+    color: #f44336;
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 36px;
+    text-align: left;
+    display: inline-block;
+    position: absolute;
+    padding-left: 474px;
+    padding-top: 95px;
+}
+
+.text_about_us {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    letter-spacing: 0.12px;
+    display: inline-block;
+    width: 398px;
+    height: 203px;
+    position: absolute;
+    padding-left: 475px;
+    padding-top: 158px;
+}
+
+.pictire_about_us {
+    position: absolute;
+    padding-left: 906px;
+    padding-top: 81px;
+}

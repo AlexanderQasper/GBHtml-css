@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #f44336;
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.header { 
+    padding-top: 0.1px;
+    height: 725px;
+    background-image: url(img/fist_screen.jpeg);
+}
+
+.welcome-line {
+    margin-top: 13px;
+    height: 83px;
+    opacity: 0.5;
+    background-color: #000000;
+    padding-left: 475px;
+}
+
+.logo {
+    float: left;
+    margin-top: 19px;
+}
+
+.welcome-tel img {
+    float: left; 
+    margin-left: 155px;
+    margin-top: 28px;
+}
+
+.welcome-tel p {
+    float: left;
+    margin-left: 14px;
+    margin-top: 36px;
+    line-height: 16.7px;
+}
+
+.welcome-mail img{
+    float: left;
+    margin-left: 39px;
+    margin-top: 32px;
+}
+
+.welcome-mail p {
+  float: left;
+    margin-left: 14px;
+    margin-top: 35px;
+    line-height: 16.7px;
+}
+
+.welcome-line a {
+    font-weight: 400;
+    font-size: 16.7px;
+    line-height: 16.7px;
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+.welcome-line a:hover {
+    color: gainsboro;
+}
+.welcome-line a:active {
+    color: green;
+}
+
+.search-text [type="text"] {
+    float: left;
+    margin-top: 23px;
+    margin-left: 100px;
+    outline-style: none;
+    width: 151px;
+    height: 36px;
+    padding-left: 16px;
+    border: 1px solid #ffffff;
+    font-size: 16.7px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.search-button img{
+    float: left;
+    margin-top: 23px;
+    width: 51px;
+    height: 36px;
+    padding: 9px 14px 8px 17px;
+    border: 1px solid #ffffff;
+}
+
+.search-button img:hover {
+    background-color:grey;
+}
+
+.search-button img:active {
+    background-color:gold;
+}
+
+.menu {
+    padding: 0px 707px 0px 703px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.menu-list {
+    float: left;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.menu-link {
+    display: inline-block;
+    color: #8C8C8C;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 32px 8px;
+}
+
+.menu-link:hover {
+    color:greenyellow;
+}
+
+.menu-link-active {
+    color: #faf8f7;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.header-text {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    margin: 134px 903px 0px 907px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.header-h1 {
+    color: #ffffff;
+    font-family: 'Poppins';
+    margin-top: 76px;
+    margin-left: 670px;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+.header-social {
+    padding-top: 75px;
+    padding-left: 861px;
+    
+}
+
+.social-list {
+    float: left;
+    width: 40px;
+    height: 40px;
+    list-style-type: none;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
+
+.header-social li:nth-child(1) {
+    background-image: url(img/logo-facebook-white.svg);
+}
+.header-social li:nth-child(2) {
+    background-image: url(img/logo-twitter-white.svg);
+}
+.header-social li:nth-child(3) {
+    background-image: url(img/logo-rss-white.svg);
+}
+.header-social li:nth-child(4) {
+    background-image: url(img/logo-vk-white.svg);
+}
+
+.social-link {
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.social-list:hover {
+    background-color: brown;
+}
+
+.social-list:active {
+    background-color: goldenrod;
+}
+
+.about {
+    height: 500px;
+    padding: 81px 474px;
+}
+
+.about-picture {
+    float: right;
+    width: 540px;
+    height: 338px;
+    margin-left: 33px;
+}
+
+.about-h2 {
+    display: inline-block;
+    margin-top: 14px;
+}
+.about-p {
+    display: block;
+    margin-top: 35px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: #999999;
+}
+
+.services {
+    height: 762px;
+    background-color: #f7f7f7;
+    padding: 92px 370px 106px 464px;
+}
+
+.services-h2{
+    padding-left: 423px;
+    padding-bottom: 17px;
+}
+
+.services-menu{
+    height: 448px;
+    list-style-type: none;
+}
+
+.services-list {
+    display: inline-block;
+    text-align: left;
+    width: 450px;
+    height: 102px;
+    margin-top: 70px;
+    margin-right: 90px;
+    
+} 
+
+.services-h3, .services-p {
+    overflow: hidden;
+    letter-spacing: 0.01em;
+}
+
+.services-h3 {
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.services-p {
+    margin-top: 18px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.services-menu li:nth-child(odd) p, .services-menu li:nth-child(odd) h3{
+    text-align: right;
+    padding-right: 66px;
+}
+
+.services-menu li:nth-child(even) p, .services-menu li:nth-child(even) h3{
+   text-align: left;
+    padding-left: 68px;
+}
+
+.services-link {
+    width: 102px;
+    height: 102px;
+    border: 1px solid #acacac;
+    border-radius: 50%;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+}
+
+.services-menu li:nth-child(odd) a{
+   float: right;
+    margin: 0px;
+    padding: 0;
+}
+
+.services-menu li:nth-child(even) a{
+   float: left;
+    margin: 0px;
+    padding: 0;
+}
+
+.services-menu li:nth-child(1) a{
+    background-image: url(img/services1.svg);
+}
+
+.services-menu li:nth-child(2) a{
+    background-image: url(img/services2.svg);
+}
+
+.services-menu li:nth-child(3) a{
+    background-image: url(img/services3.svg);
+}
+
+.services-menu li:nth-child(4) a{
+    background-image: url(img/services4.svg);
+}
+
+.services-menu li:nth-child(5) a{
+    background-image: url(img/services5.svg);
+}
+
+.services-menu li:nth-child(6) a{
+    background-image: url(img/services6.svg);
+}
+
+.services-list-active h3{
+    color: #f44336;
+}
+
+.services-list-active a {
+    background-color: #f44336;
+}
+
+.services-list a:hover {
+    background-color: lightcoral;
+}
+
+.services-list a:active {
+    background-color: magenta;
+}
+
+
+
+.gallery {
+    height: 889px;
+    padding: 93px 315px 186px 374px;
+}
+
+.gallery-h2{
+    padding-left: 483px;
+    padding-bottom: 92px;
+}
+
+.gallery-menu{
+    /*height: 448px;*/
+    list-style-type: none;
+}
+
+.gallery-list {
+    float: left;
+    height: 482px;
+    margin-right: 29px;
+    background-color: #f7f7f7;
+} 
+
+.gallery-link img{
+    width: 271px;
+    height: 376px;
+    background-color: #ffffff;
+}
+
+.gallery-p {
+    height: 36px;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+
+.gallery-button {
+    display: block;
+    padding-top: 8px;
+    margin-left: 70px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14.1px;
+    line-height: 14.1px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    text-decoration: none;
+}
+
+.gallery-button:hover {
+    background-color: lightgreen;
+}
+
+.gallery-button:active {
+    background-color: gold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial {
+    height: 537px;
+}
+
+.news-events {
+    height: 888px;
+}
+
+.team {
+    height: 785px;
+}
+
+.subscribe {
+    height: 313px;
+}
+
+.contact {
+    height: 1109px;
+}
+
+.footer {
+    padding-top: 29px;
+    padding-left: 806px;
+    height: 71px;
+    background-color: #000000;
+    font-family: 'Arial Narrow';
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
